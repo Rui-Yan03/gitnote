@@ -62,3 +62,7 @@ git diff
 git diff --staged/cached
 ```
 
+
+## skipping the staging area
+-a flag will stage all changed files
+
