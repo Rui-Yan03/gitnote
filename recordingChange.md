@@ -66,3 +66,20 @@ git diff --staged/cached
 ## skipping the staging area
 -a flag will stage all changed files
 
+
+## removing files
+
+1. remove working directory file
+
+```
+rm file.txt
+git rm file.txt
+```
+
+2. remove staged file
+
+```
+git rm --cached file.txt
+```
+
+
