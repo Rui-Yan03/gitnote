@@ -82,4 +82,9 @@ git rm file.txt
 git rm --cached file.txt
 ```
 
+## moving file
+
+```
+git mv <filename> <newfilename>
+```
 
