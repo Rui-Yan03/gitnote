@@ -40,5 +40,5 @@ git fetch
 
 then you can checkout pr
 ```
-
+git checkout <pr>
 ```
