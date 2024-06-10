@@ -1,14 +1,14 @@
-##create a new branch
+## create a new branch
 ```
 git branch <branch>
 ```
 
-##switch to a branch
+## switch to a branch
 ```
 git checkout <branch>
 ```
 
-##create a new branch and swithing to it
+## create a new branch and swithing to it
 ```
 git checkout -b <branch>
 ```
@@ -17,7 +17,7 @@ or
 git switch -c <branch>
 ```
 
-##show where the branch pointers are pointing
+## show where the branch pointers are pointing
 ```
 git log --oneline --decorate
 ```

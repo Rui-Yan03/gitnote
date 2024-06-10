@@ -12,13 +12,13 @@ git log
 
 --pretty=format:"<someformat>"
 
-##the difference between author and commiter
+## the difference between author and commiter
 
 the author is who write the code and the committer is who applied the work to repo
 
 --graph: display an ASCII graph of branch and merge history beside the log output
 
-##limiting log output
+## limiting log output
 
 --since: take a specific data like"2018-7-9" or relative date like "1 years 1 day 3 minutes ago"
 

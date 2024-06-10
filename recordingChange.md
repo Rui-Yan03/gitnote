@@ -38,7 +38,7 @@ to make git not remind sth untracked, add them to .gitignore
 2. start pattern with / to avoid recursive
 3. end pattern with / to specify a directory
 4. negate a pattern(do not ignore) by add ! in front of pattern
-**: match nested dire
+\*\*: match nested dire
 
 /todo
 to ingore todo in current dire not sub/todo

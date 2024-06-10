@@ -1,11 +1,12 @@
-##show tags
+## show tags
 1. list tags
-```
-git tag
-```
+
+    ```
+    git tag
+    ```
 
 2. show matched tags
-``
+```
 git -l <partten>
 ```
 
@@ -13,7 +14,7 @@ git -l <partten>
 ```
 git show <tagname>
 
-##2 kinds of tag
+## 2 kinds of tag
 1. lightweight tag
 It's basically the commit checksum stored in a file.
 
@@ -29,13 +30,13 @@ To created a annotated tag
 git tag -a <tagname> -m <message>
 ```
 
-##creating tags later
+## creating tags later
 ```
 git tag <tagname> <commithash>
 git tag -a <tagname> <commithash>
 ```
 
-##sharing tags
+## sharing tags
 By default, `git push` doesn't transfer tags to remote server.You have to explicitly push tags to remote server.
 
 1. push a specific tag
@@ -52,7 +53,8 @@ git push <remote> --follow-tags
 git push <remote> --tags
 ```
 
-##deleting tags
+## deleting tags
+
 1. delete on local repo
 ```
 git tag -d <tag>
